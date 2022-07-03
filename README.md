@@ -1,1 +1,1 @@
-# module_one_challenge_hudsontd
+# Goal: Refactoring existing code to enhance HTML & CSS with semantic flow.
