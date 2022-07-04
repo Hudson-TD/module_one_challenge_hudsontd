@@ -1,4 +1,4 @@
-/* Universally defining width and height calculations for all elements */
+/* Universal - defining width and height calculations for all elements */
 
 * {
     box-sizing: border-box;
@@ -6,11 +6,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-/* Multicolored company name in header */
+/* Header - multicolored company name */
 
 .header {
     padding: 20px;
@@ -28,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Navigation list styling and positioning */
+/* Header - navigation styling and positioning */
 
 .header nav {
     padding-top: 15px;
@@ -47,18 +43,14 @@ body {
     margin-left: 25px;
 }
 
-/* Establishing color for all anchor elements */
+/* Header - text color for all nav anchors */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Establishing font size for all paragraph elements  */
-
-p {
-    font-size: 16px;
-}
+/* Hero image positioning */
 
 .hero {
     height: 800px;
@@ -69,52 +61,25 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* Body - setting background color */
+
+body {
+    background-color: #d9dcd6;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+/* Paragraph - font size for all paragraphs */
+
+p {
+    font-size: 16px;
 }
+
+/* Main - content styling */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2587bd;
-}
-
-
-
-.benefit-lead,.benefit-brand,.benefit-cost {
-    margin-bottom: 55px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,.benefit-brand img,.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Styling for Content section outlined in html */
 
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
@@ -134,7 +99,46 @@ p {
     font-size: 36px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Section - content styling */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2587bd;
+}
+
+.benefit-lead,.benefit-brand,.benefit-cost {
+    margin-bottom: 75px;
+    color: #ffffff;
+}
+
+.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img,.benefit-brand img,.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer - content styling */
 
 .footer {
     padding: 30px;
